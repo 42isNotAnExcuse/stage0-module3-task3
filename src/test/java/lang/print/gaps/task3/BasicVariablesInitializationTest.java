@@ -33,6 +33,6 @@ class BasicVariablesInitializationTest extends BaseIOTest {
                                 line.contains("int third"))
                 .collect(Collectors.toList());
 
-        assertEquals(6, declarationResult.size());
+        assertEquals(3, declarationResult.size());
     }
 }
